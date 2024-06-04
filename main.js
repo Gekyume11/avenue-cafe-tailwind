@@ -1,0 +1,1 @@
+const btn = document.querySelector('.open-btn');const main = document.querySelector('.main');const btnnn = document.querySelector('.close-btn');btn.onclick=()=>{main.classList.add('active')};btnnn.onclick=()=>{main.classList.remove('active')};
